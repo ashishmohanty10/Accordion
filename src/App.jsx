@@ -17,14 +17,14 @@ const App = () => {
         </h1>
 
         <div className="flex flex-col gap-4 divide-y">
-          {faq.map((d, i) => {
+          {faq.map((d, i) => (
             <Accordion
               key={i}
               question={d.questions}
               answer={d.answers}
               isAccordfion={d.isAccordion}
-            />;
-          })}
+            />
+          ))}
         </div>
       </section>
     </main>

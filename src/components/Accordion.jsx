@@ -3,7 +3,7 @@ import Plus from "../assets/icon-plus.svg";
 import Minus from "../assets/icon-minus.svg";
 import autoAnimate from "@formkit/auto-animate";
 
-const Accordion = () => {
+const Accordion = (props) => {
   const [isAccordion, setIsAccordion] = useState(props.isAccordion || false);
   const parent = useRef(null);
 
