@@ -10,19 +10,19 @@ export const faq = [
     questions: "What is the maximum file upload size?",
     answers:
       "No more than 2GB. All files in your account must fit your allotted storage space.",
-    isAccordion: true,
+    isAccordion: false,
   },
 
   {
     questions: "How do I reset my password?",
     answers:
       "Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.",
-    isAccordion: true,
+    isAccordion: false,
   },
 
   {
     questions: "Can I cancel my subscription?",
     answers: `Yes! Send us a message and we’ll process your request no questions asked.`,
-    isAccordion: true,
+    isAccordion: false,
   },
 ];
