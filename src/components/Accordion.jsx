@@ -19,7 +19,7 @@ const Accordion = (props) => {
       {/* queation */}
 
       <p
-        className="flex justify-between gap-2 font-semibold cursor-pointer sm:tet-lg"
+        className="flex justify-between gap-2 font-semibold cursor-pointer"
         onClick={handleAccordion}
       >
         <span>{props.question}</span>
